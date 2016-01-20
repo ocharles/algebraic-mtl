@@ -1,0 +1,16 @@
+name:                algebraic-mtl
+version:             1.0.0
+synopsis:            A variation of the mtl using only algebraic effects in type classes
+homepage:            https://github.com/ocharles/algebraic-mtl
+license:             BSD3
+license-file:        LICENSE
+author:              Ollie Charles
+maintainer:          ollie@ocharles.org.uk
+category:            Control
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Control.Monad.Algebraic
+  build-depends:       base >=4.8 && <4.9, transformers >=0.4 && <0.5, mtl, unexceptionalio, exceptions
+  default-language:    Haskell2010
